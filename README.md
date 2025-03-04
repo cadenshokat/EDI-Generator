@@ -25,7 +25,8 @@ This project is a simple Electronic Data Interchange (EDI) message generator for
   
   The generation functions build segments according to a simplified structure of the 837/835 standards. The segments include ISA, GS, ST, and additional segments specific to claim and payment information.
 
-- **Output:**  
+- **Output:**
+  Change the NUM_MESSAGES variable to output the desired amount of 835/837 files.
   Generated EDI files are saved in the output directory (`../edi_messages`). The script creates this directory if it does not already exist.
 
 ### Main Files
