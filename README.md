@@ -2,7 +2,7 @@
 
 This project is a simple Electronic Data Interchange (EDI) message generator for healthcare billing. It generates paired 837 (claim) and 835 (payment) messages based on randomized inputs. The generated files are stored in a designated output folder and can be used for testing or educational purposes. 
 
-- Here is a link to the official 835/837 format with descriptions of each field for better understanding:     
+- Here are links to the official 835/837 formats with descriptions of each field for better understanding:     
   - 835 - https://datainsight.health/edi/payments/comprehensive/
   - 837 - https://datainsight.health/edi/claims/comprehensive/
 
