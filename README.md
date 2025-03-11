@@ -56,8 +56,8 @@ This project is a simple Electronic Data Interchange (EDI) message generator for
   
   These files are used to generate random patient names.
 
-- **edi_messages**
-  The edi_messages directory is there for display. Delete this directory before running your code.
+- **edi_messages:**  
+  The edi_messages directory is included in the repository for display purposes. Delete this directory before running your code.
 
 ### Running the Script
 
