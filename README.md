@@ -59,15 +59,69 @@ This project is a simple Electronic Data Interchange (EDI) message generator for
 - **edi_messages:**  
   The edi_messages directory is included in the repository for display purposes. Delete this directory before running your code.
 
-### Running the Script
+## Running the Script
 
-1. **Clone or Download the Project:**  
-   Ensure all project files (`edi_generator.py`, `constants.py`, and the required name lists) are in the correct directory structure.
+This guide explains how to clone or download the EDI Generator project for users of all experience levels.
 
-2. **Open a Terminal/Command Prompt:**  
-   Navigate to the directory where `edi_generator.py` is located.
+### For Beginners: Downloading the Project Without Git
 
-3. **Run the Script:**  
-   Execute the following command:
-   ```bash
-   python edi_generator.py
+If you’re not familiar with Git or prefer not to use it, follow these steps:
+
+1. **Locate the Repository:**
+   - Open your web browser and navigate to the project's GitHub page (or the hosting site where the repository is available).
+
+2. **Download as a ZIP:**
+   - Look for a button or link labeled “Code” or “Download.”
+   - Click on **Download ZIP**. This will download the entire project as a compressed ZIP file.
+
+3. **Extract the Files:**
+   - Once downloaded, locate the ZIP file on your computer.
+   - Right-click the file and select “Extract All…” (Windows) or use your preferred extraction tool (macOS/Linux).
+   - Ensure that the extracted directory retains the correct structure:
+     - The main folder should contain `edi_generator.py`, `constants.py`, and a folder (e.g., `names-surnames-list`) with the required text files.
+
+### For Intermediate to Advanced Users: Using Git to Clone the Repository
+
+If you have Git installed, cloning the repository is quick and allows you to easily update your local copy with future changes:
+
+1. **Verify Git Installation:**
+   - Open your terminal (Command Prompt, PowerShell, or any shell on Linux/macOS).
+   - Run the command:
+     ```bash
+     git --version
+     ```
+   - If Git is installed, you should see the version number. If not, download and install Git from [git-scm.com](https://git-scm.com/).
+
+2. **Clone the Repository:**
+   - Navigate to the directory where you want to store the project. For example:
+     ```bash
+     cd ~/projects
+     ```
+   - Use the `git clone` command along with the repository URL. For example:
+     ```bash
+     git clone https://github.com/yourusername/edi-generator.git
+     ```
+   - This command creates a folder named `edi-generator` (or the repository name) containing all project files.
+
+3. **Verify the Directory Structure:**
+   - After cloning, change to the project directory:
+     ```bash
+     cd edi-generator
+     ```
+   - Ensure that files like `edi_generator.py` and `constants.py` are in the root directory, and that the `names-surnames-list` folder is present with the necessary text files.
+
+### Run the code
+
+Regardless of the cloning method, make sure to:
+
+- **Check the File Structure:**  
+  Verify that the expected directories (like `../names-surnames-list` for name files) and output folders (`../edi_messages`) are correctly positioned relative to the main script.  
+  > If the output directory exists from a previous run, consider deleting it before running the script to avoid conflicts.
+
+- **Read the Documentation:**  
+  Review any README or documentation files included in the repository to understand dependencies, configuration options, or additional setup steps.
+
+- **Run the Project:**  
+  Open a terminal in the project directory and execute:
+  ```bash
+  python edi_generator.py
